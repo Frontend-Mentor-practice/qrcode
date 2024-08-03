@@ -2,6 +2,7 @@
   --bg-main: hsl(212, 45%, 89%);
   --card-bg-clr: hsl(0, 0%, 100%);
   --card-max-width: 18rem;
+  --clr-heading: hsl(218, 44%, 22%);
   --clr-txt: hsl(216, 15%, 48%);
   --radius: 1.25rem;
 }
@@ -14,6 +15,10 @@
 
 .bg-clr-card-primary {
   background-color: var(--card-bg-clr);
+}
+
+.clr-txt-primary {
+  color: var(--clr-heading);
 }
 
 .clr-txt-secondary {
@@ -48,6 +53,7 @@ h2 {
   /* 22px */
   font-size: 1.375rem;
   line-height: 120%;
+  font-weight: 700;;
 }
 
 p {
@@ -55,6 +61,7 @@ p {
   font-size: 0.9375rem;
   letter-spacing: 0.2px;
   line-height: 140%;
+  font-weight: 400;
 }
 
 /*************************************/
