@@ -76,18 +76,13 @@ p {
   border-radius: calc(var(--radius) / 2);
 }
 
-.card hgroup {
+.card header {
   gap: 1rem;
   padding-inline: 1rem;
 }
 
-
-
-.header {
+footer {
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
-  background-color: #FFFF;
-  width: 100%;
-  padding: 1rem;
 }
